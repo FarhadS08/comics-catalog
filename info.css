@@ -1,0 +1,186 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #FAEEE7;
+}
+
+
+
+*{
+    margin:0;
+}
+
+.wrapper{
+    background-color:#FAEEE7;
+    height: 100%;
+    width:100%;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    background-color:#630606;
+}
+
+
+.space{
+    height:110px;
+}
+
+
+
+.content img {
+    margin-top:150px;
+    width:40%;
+    border-radius:20px;
+}
+
+.name{
+    font-family: "montserrat";
+    padding:80px;
+    font-size: 40px;
+    font-weight:bold;
+    color:#F4FCD9;
+}
+
+.box{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.info h3{
+    font-family: "montserrat";
+    font-size: 40px;
+    font-weight:normal;
+    color:#f4fcd981;
+}
+
+.info h1{
+    font-family: "montserrat";
+    font-size: 40px;
+    font-weight:bold;
+    color:#F4FCD9;
+    width:fit-content;
+}
+
+
+.desc{
+    width:90%;
+    padding:40px;
+    background-color: #FAEEE7;
+}
+
+.desc h1{
+    font-family: "montserrat";
+    font-size: 60px;
+    font-weight:bold;
+    width:fit-content;
+}
+
+.desc h3{
+    font-family: "montserrat";
+    font-size: 40px;
+    font-weight:normal;
+    color:rgba(0, 0, 0, 0.61);
+}
+
+
+
+
+@media only screen and (min-device-width: 1848px) and (max-device-width:4800px){
+
+    
+    .content img {
+        margin-top:100px;
+        width:20%;
+        border-radius:20px;
+    }
+
+    
+    .info h3{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:normal;
+        color:#f4fcd981;
+    }
+
+    .info h1{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:bold;
+        color:#F4FCD9;
+        width:fit-content;
+    }
+
+
+    .desc h1{
+        font-family: "montserrat";
+        font-size: 40px;
+        font-weight:bold;
+        width:fit-content;
+    }
+    
+    .desc h3{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:normal;
+        color:rgba(0, 0, 0, 0.61);
+    }
+
+
+}
+
+
+@media only screen and (min-device-width: 1448px) and (max-device-width:1748px){
+
+    
+    .content img {
+        margin-top:70px;
+        width:20%;
+        border-radius:20px;
+    }
+
+    
+    .info h3{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:normal;
+        color:#f4fcd981;
+    }
+
+    .info h1{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:bold;
+        color:#F4FCD9;
+        width:fit-content;
+    }
+
+
+    .desc h1{
+        font-family: "montserrat";
+        font-size: 40px;
+        font-weight:bold;
+        width:fit-content;
+    }
+    
+    .desc h3{
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight:normal;
+        color:rgba(0, 0, 0, 0.61);
+    }
+
+
+}
